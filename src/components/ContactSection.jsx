@@ -5,7 +5,7 @@ export default function ContactsSection() {
           <h2 className="contacts__heading">Контакты</h2>
           <address className="contacts__list">
             <div className="contacts__item">
-              <img className="contacts__icon" src="/icons/adres.svg" alt="Адрес" />
+              <img className="contacts__icon" src={import.meta.env.BASE_URL + 'icons/adres.svg'} alt="Адрес" />
               <div className="contacts__label">адрес:</div>
               <ul className="contacts__value">
                 <li>улица Приморская</li>
@@ -13,7 +13,7 @@ export default function ContactsSection() {
               </ul>
             </div>
             <div className="contacts__item">
-              <img className="contacts__icon" src="/icons/phone.svg" alt="Телефон" />
+              <img className="contacts__icon" src={import.meta.env.BASE_URL + 'icons/phone.svg'} alt="Телефон" />
               <div className="contacts__label">телефон:</div>
               <ul className="contacts__value contacts__value--list">
                 <li><a href="tel:88001258080" className="contacts__link">8800-125-80-80</a></li>
@@ -21,7 +21,7 @@ export default function ContactsSection() {
               </ul>
             </div>
             <div className="contacts__item">
-              <img className="contacts__icon" src="/icons/clock.svg" alt="Время работы" />
+              <img className="contacts__icon" src={import.meta.env.BASE_URL + 'icons/clock.svg'} alt="Время работы" />
               <div className="contacts__label">время работы:</div>
               <ul className="contacts__value">
                 <li>Пн-Вск</li>
@@ -29,7 +29,7 @@ export default function ContactsSection() {
               </ul>
             </div>
             <div className="contacts__item">
-              <img className="contacts__icon" src="/icons/mail.svg" alt="Email" />
+              <img className="contacts__icon" src={import.meta.env.BASE_URL + 'icons/mail.svg'} alt="Email" />
               <div className="contacts__label">e-mail:</div>
               <ul className="contacts__value contacts__value--list">
                 <li><a href="mailto:info@apartments-sochi.ru"
